@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #354649;
+}
+
+.new-link ul li a{
+        margin: 0px 10px;
+        font-weight: 700;
+        transition: .3s ease-in-out;
+}
+
+ .new-link  li a:hover{
+    color: orange !important;
+}
+
+.fa-bars{
+    font-size: 29px;
+}
+
+.copy,.copy-1,.copy-2,.copy-3,.copy-4,.copy-5,.copy-6,.copy-7{
+    transition: 0.6s ease-in-out  ;
+}
+
+.copy:hover{
+    background-color: rgba(255, 157, 0, 0.875);
+    transform: translate( -12px);
+    color: #fff;
+}
+
+.copy-1:hover{
+    background-color: rgba(56, 56, 252, 0.834);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-2:hover{
+    background-color:rgba(237, 237, 4, 0.849);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-3:hover{
+    background-color: rgba(75, 34, 130, 0.878);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-4:hover{
+    background-color: rgba(78, 203, 190, 0.905);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-5:hover{
+    background-color: rgba(50, 196, 241, 0.855);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-6:hover{
+    background-color:  rgba(242, 79, 30, 0.907);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+.copy-7:hover{
+    background-color: rgba(128, 128, 128, 0.855);
+    transform: translate( -12px);
+    transition: 0.6s ease-in-out   ;
+    color: #fff;
+}
+
+main{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    margin-top: 70px;
+
+}
+.main h1{
+    color: white;
+}
+.Discription{
+    color: white;
+}
+
+.firstsection {
+    color: #72f0f9;
+
+}
+.leftsection h1{
+    font-weight: 600;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.Discription{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+ .btn {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    cursor: pointer;
+    font-size:17px ;
+    font-weight: 600;
+
+}
+
+.leftsection .btn:hover {
+    background-color: #212529;
+    color: orange;
+    border: 2px solid white;
+
+}
+
+.section img{
+    width: 400px;
+    box-shadow: 0 0 10px white;
+    border: 10px solid ;
+
+}
+
+.about:hover{
+    background-color: #262626 !important;
+
+}
+.about img{
+    transition: 0.5s ease-in-out;
+
+}
+.about:hover img {
+    filter: brightness(0) invert(1);
+    transform: translatey(-10px);
+}
+
+.about,.title-text{
+    transition: 0.5s ease-in-out;
+}
+
+.about:hover,.title-text{
+    color: white;
+}
+
+.project img{
+    transition: 0.5s ease-in-out;
+}
+.project:hover img{
+    transform: translatey(-10px);
+    background-color: green;
+    box-shadow: 5px 15px 15px rgb(130, 129, 129);
+
+}
+
+.project-1 img{
+    transition: 0.5s ease-in-out;
+}
+.project-1:hover img{
+    transform: translatey(-10px);
+    background-color: red;
+    box-shadow: 5px 15px 15px rgb(130, 129, 129);
+
+}
+
+.project-2 img{
+    transition: 0.5s ease-in-out;
+}
+.project-2:hover img{
+    transform: translatey(-10px);
+    background-color: #6F4E37;
+    box-shadow: 5px 15px 15px rgb(130, 129, 129);
+}
+
+.project-3 img{
+    transition: 0.5s ease-in-out;
+}
+.project-3:hover img{
+    transform: translatey(-10px);
+    background-color:rgb(45, 45, 237);
+    box-shadow: 5px 15px 15px rgb(130, 129, 129);
+
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #212529;
+}
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.footer ul {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        height: 90px;
+    }
+
+.footer ul li {
+        list-style: none;
+      }
+
+.footer ul li a {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        margin: 0 10px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid #fff;
+        z-index: 1;
+      }
+
+.footer  ul li a .icon {
+        position: relative;
+        color: #262626;
+        transition: .5s;
+        z-index: 3;
+      }
+
+.footer ul li a:hover .icon {
+        color: #fff;
+        transform: rotateY(360deg);
+      }
+
+.footer ul li a:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f00;
+        transition: .5s;
+      }
+
+.footer ul li a:hover:before {
+        top: 0;
+      }
+
+.footer ul li:nth-child(1) a:before{
+        background: #3b5999;
+      }
+
+.footer  ul li:nth-child(2) a:before{
+        background: #55acee;
+        background: linear-gradient(to right,  #f9ce34,  #ee2a7b,  #6228d7);
+      }
+
+.footer ul li:nth-child(3) a:before {
+        background: #0077b5;
+      }
+.footer ul li:nth-child(4) a:before {
+        background: #dd4b39;
+      }
